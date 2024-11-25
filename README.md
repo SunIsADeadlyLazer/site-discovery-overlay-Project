@@ -4,11 +4,11 @@
 displays a "SITE VISITED" overlay, heavily inspired by ELDENRING
 
 ## Installation
--> clone the repo and head to **about:debugging** in your FIREFOX browser
--> click "This Firefox"
--> click "Load Temporary Add-on"
--> select **manifest.json**
--> OK.
+- clone the repo and head to **about:debugging** in your FIREFOX browser
+- click "This Firefox"
+- click "Load Temporary Add-on"
+- select **manifest.json**
+- OK.
 
 ## Customization
--> do whatever you want with the css
+- do whatever you want with the css
