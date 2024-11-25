@@ -4,7 +4,7 @@
 displays a "SITE VISITED" overlay, heavily inspired by ELDENRING
 
 ## Download
--[download](https://downgit.github.io/#/home?url=https://github.com/SunIsADeadlyLazer/site-discovery-overlay-Project)
+- [here](https://downgit.github.io/#/home?url=https://github.com/SunIsADeadlyLazer/site-discovery-overlay-Project)
 
 ## Installation
 - head to **about:debugging** in your FIREFOX browser
