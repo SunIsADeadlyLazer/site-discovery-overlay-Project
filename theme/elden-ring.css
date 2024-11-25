@@ -1,0 +1,72 @@
+@font-face {
+  font-family: "Mantinia";
+  src: url("../fonts/Mantinia.woff2") format("woff2"),
+       url("../fonts/Mantinia.woff") format("woff"),
+       url("../fonts/Mantinia.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.elden-ring-overlay {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 999999;
+  pointer-events: none;
+  animation: fadeIn 2s ease-in;
+  width: 100%;
+  text-align: center;
+}
+
+.overlay-text {
+  font-family: "Mantinia", serif;
+  width: 100%;
+  color: #e0a149;
+  font-size: 52px;
+  
+  text-shadow: 
+    2px 2px 8px rgba(0, 0, 0, 0.7),
+    -2px -2px 8px rgba(0, 0, 0, 0.7),
+    2px -2px 8px rgba(0, 0, 0, 0.7),
+    -2px 2px 8px rgba(0, 0, 0, 0.7),
+    0 0 15px rgba(216, 159, 80, 0.3);
+  letter-spacing: 8px;
+  display: inline-block;
+  padding: 30px;
+  
+  background: linear-gradient(to bottom,
+              rgba(0,0,0,0) 0%,
+              rgba(0,0,0,0.6) 50%,
+              rgba(0,0,0,0) 100%);
+}
+
+/* Slower, more dramatic fade in */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translate(-50%, -50%);
+  }
+  50% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 1;
+    transform: translate(-50%, -50%);
+  }
+}
+
+.fade-out {
+  animation: fadeOut 3s ease-out forwards;
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+    transform: translate(-50%, -50%);
+  }
+  100% {
+    opacity: 0;
+    transform: translate(-50%, -50%);
+  }
+}
