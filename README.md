@@ -3,7 +3,10 @@
 
 displays a "SITE VISITED" overlay, heavily inspired by ELDENRING
 
-## Download
+## Download Extension
+- [here](https://addons.mozilla.org/en-US/firefox/addon/site-discovery-add-on/)
+
+## Download Source Code
 - [here](https://downgit.github.io/#/home?url=https://github.com/SunIsADeadlyLazer/site-discovery-overlay-Project)
 
 ## Installation
